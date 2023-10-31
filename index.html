@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./styles/reset.css" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/caracteristicas.css" />
+    <link rel="stylesheet" href="./styles/galeria.css" />
+
+    <title>NaturaLife</title>
+  </head>
+  <body>
+    <header id="navbar">
+      <article id="isologotipo">
+        <img id="iso" src="src/isotipo.png" alt="isotipo-naturalife" />
+        <img id="logo" src="src/logotipo.png" alt="logotipo-naturalife" />
+      </article>
+      <ul id="menu">
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Actividades</a></li>
+        <li><a href="#">Viñedo</a></li>
+        <li><a href="#">Experiencias</a></li>
+        <li><a href="#">Registro</a></li>
+      </ul>
+    </header>
+    <main>
+      <section id="presentacion">
+        <h1>Más que un Hospedaje, un Compromiso Verde</h1>
+        <p>
+          Cosecha experiencias únicas mientras cuidas de nuestro viñedos
+          orgánicos y disfruta de alojamientos gratuitos.
+        </p>
+      </section>
+
+      <section id="caracteristicas">
+        <h2 class="titulo-section">
+          <img
+            src="src/separador-der.svg"
+            alt="separador-der"
+            class="separador sep-izq"
+          />Donde Tu Estancia Hace la Diferencia
+          <img
+            src="src/separador-der.svg"
+            alt="separador-der"
+            class="separador sep-der"
+          />
+        </h2>
+        <p class="subtitulo-section">
+          Creemos en la armonía entre el confort y la responsabilidad ecológica.
+        </p>
+        <section id="caracteristicas-targetas-container">
+          <div class="cont-targ cont-m">
+            <div class="targeta">
+              <img
+                class="img-targ"
+                id="gratis-svg"
+                src="src/icons/gratis.svg"
+                alt="gratis"
+              />
+              <h3 class="tit-targ">Totalmente gratis</h3>
+              <p class="p-targ">
+                Valoramos más el aporte ecológico que brindas al planeta que
+                cualquier cantidad monetaria
+              </p>
+            </div>
+          </div>
+          <div class="cont-targ cont-g">
+            <div class="targeta targ-g">
+              <img class="img-targ" src="src/icons/hoja.svg" alt="hoja" />
+              <h3 class="tit-targ">Por un Mundo Más Verde</h3>
+              <p class="p-targ">
+                Vivir de manera eco-amigable no es solo una elección, es nuestra
+                misión y nuestra responsabilidad.
+              </p>
+            </div>
+          </div>
+          <div class="cont-targ cont-m">
+            <div class="targeta">
+              <img class="img-targ" src="src/icons/arbol.svg" alt="arbol" />
+              <h3 class="tit-targ">Totalmente gratis</h3>
+              <p class="p-targ">
+                Valoramos más el aporte ecológico que brindas al planeta que
+                cualquier cantidad monetaria
+              </p>
+            </div>
+          </div>
+        </section>
+      </section>
+
+      <section class="fotos">
+        <h2 class="titulo-section">
+          <img
+            src="src/separador-der.svg"
+            alt="separador-der"
+            class="separador sep-izq"
+          />Una Experiencia para los Sentidos
+          <img
+            src="src/separador-der.svg"
+            alt="separador-der"
+            class="separador sep-der"
+          />
+        </h2>
+       
+        <p class="subtitulo-section">
+          Sumérgete en una estancia donde cada detalle celebra y respeta la
+          riqueza de nuestro entorno natural.
+        </p>
+        <div class="galeria">
+          <button id="antBtn" class="btnsCarrusel"><</button>
+          <button id="sigBtn" class="btnsCarrusel">></button>
+
+          <div class="imageContainer">
+            <img
+              src="./src/fotos/cabanas-ecologicas.jpg"
+              alt="cabanas-ecologicas"
+            />
+            <p class="hover-text">Cabañas Sustentables</p>
+          </div>
+          <div class="imageContainer">
+            <img
+              src="./src/fotos/huertos-ecologicos.jpg"
+              alt="huertos-ecologicos"
+            />
+            <p class="hover-text">Cultivos Ecológicos y Saludables</p>
+          </div>
+          <div class="imageContainer">
+            <img
+              src="./src/fotos/paneles_solares.jpg"
+              alt="cabanas-ecologicas"
+            />
+            <p class="hover-text">Energía Renovable</p>
+          </div>
+          <div class="imageContainer">
+            <img src="./src/fotos/productos.jpg" alt="cabanas-ecologicas" />
+            <p class="hover-text">Productos Artesanales</p>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer></footer>
+    <script src="./js/ocultar-navbar.js"></script>
+  </body>
+</html>

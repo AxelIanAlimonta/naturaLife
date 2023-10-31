@@ -1,0 +1,47 @@
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 22px;
+    height: var(--navbar-h);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s; /* Efecto de transición */
+    background-color: var(--color-fondo);
+}
+
+#isologotipo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#iso{
+    width: 60px;
+}
+
+#logo{
+    height: 35px;
+}
+
+#menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu li{
+    padding: 1em;
+}
+
+#menu a{
+    text-decoration: none;
+    color: var(--violeta);
+}
+#menu a:visited{
+    text-decoration: none;
+}
+
+
