@@ -1,0 +1,34 @@
+#solicitar-hosp{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#hosp-c{
+    transform: scaleX(-1);
+}
+
+.txt-hosp{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--violeta);
+    padding: 20px;
+    flex-grow: 1;
+}
+.txt-hosp p{
+    background-color: var(--violeta);
+    height: auto;
+}
+
+.txt-hosp button{
+    background-color: var(--verde);
+    font-size: 30px;
+    color: white;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 8px auto;
+    box-shadow: none;
+
+}

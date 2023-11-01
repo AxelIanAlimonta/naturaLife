@@ -1,19 +1,18 @@
 :root {
   --violeta: #754967;
-  --violeta-claro: rgb(234, 133, 202);
   --verde: #429142;
-  --verde-clro: rgb(66, 143, 66);
   --navbar-h: 80px;
   --color-fondo:#f7f3e7;
 }
 
 * {
   box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
 }
 
 html {
-  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: var(--color-fondo);
+  scroll-behavior: smooth;
 }
 
 main {
@@ -29,6 +28,7 @@ main {
     url("../src/viñedo.webp");
   background-size: cover;
   padding-left: 10%;
+  position: relative;
 }
 
 h1 {
@@ -44,6 +44,19 @@ h1 {
   font-size: 50px;
   margin: .5em auto;
   text-align: center;
+  color: var(--verde);
+}
+
+#presentacion .ubicacion{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  right: 20px;
+  bottom: 50px;
+}
+#presentacion .ubicacion p{
+  margin-top: 0;
 }
 
 .separador{
@@ -52,6 +65,7 @@ h1 {
 
 .sep-izq{
   transform: scaleX(-1);
+  /* z-index: -1; */
 }
 
 .subtitulo-section{

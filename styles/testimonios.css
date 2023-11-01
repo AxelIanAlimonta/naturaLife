@@ -1,0 +1,84 @@
+.testimonios {
+  --h-contenedor-testimonios: 250px;
+}
+
+.testimonios {
+  min-height: 100vh;
+}
+
+.contenedor-testimonio {
+  display: flex;
+  width: 40%;
+  min-height: var(--h-contenedor-testimonios);
+  margin-left: auto;
+  margin-right: auto;
+  align-items: center;
+  position: relative;
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.img-cabania {
+  width: var(--h-contenedor-testimonios);
+  height: var(--h-contenedor-testimonios);
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid var(--verde);
+  position: absolute;
+  /* left: -125px; */
+  left: calc(var(--h-contenedor-testimonios) * 0.25 * -1);
+  z-index: 2;
+}
+
+.text-area-testimonio {
+  min-height: calc(var(--h-contenedor-testimonios) * 0.8);
+  color: var(--violeta);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 5px solid var(--verde);
+  padding: 20px;
+  padding-left: calc(var(--h-contenedor-testimonios) / 2 + 20px);
+  border-radius: 20px;
+  position: relative;
+  left: calc(var(--h-contenedor-testimonios) * 0.25);
+  font-size: 25px;
+}
+
+.btn {
+  margin-left: auto;
+}
+
+#btn-registro {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1.2em;
+  font-size: 1.1em;
+}
+
+.testimonio-nombre{
+    font-weight: 900;
+    margin-left: auto;
+}
+
+.contenedor-testimonios{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* flex-grow: 1; */
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonios{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.centrar-testimonios{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    align-items: center;
+}

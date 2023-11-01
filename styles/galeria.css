@@ -12,9 +12,12 @@
 .galeria {
   display: flex;
   flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
   justify-content: center;
   align-items: center;
-  height: 80%;
+  height: 70%;
+  width: 90%;
   position: relative;
 }
 

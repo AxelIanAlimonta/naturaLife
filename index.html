@@ -4,12 +4,16 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/header.css" />
+    <link rel="stylesheet" href="./styles/testimonios.css" />
     <link rel="stylesheet" href="./styles/caracteristicas.css" />
+    <link rel="stylesheet" href="./styles/cosechaDeUvas.css" />
+    <link rel="stylesheet" href="./styles/footer.css" />
     <link rel="stylesheet" href="./styles/galeria.css" />
+    <link rel="stylesheet" href="./styles/solicitar-hospedaje.css" />
 
     <title>NaturaLife</title>
   </head>
@@ -20,11 +24,12 @@
         <img id="logo" src="src/logotipo.png" alt="logotipo-naturalife" />
       </article>
       <ul id="menu">
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Actividades</a></li>
-        <li><a href="#">Viñedo</a></li>
-        <li><a href="#">Experiencias</a></li>
-        <li><a href="#">Registro</a></li>
+        <li><a href="#presentacion">Inicio</a></li>
+        <li><a href="#caracteristicas">Nosotros</a></li>
+        <li><a href="#fotos">Fotos</a></li>
+        <li><a href="#testimonios">Testimonios</a></li>
+        <li><a href="#cosecha-de-uvas">Viñedo</a></li>
+        <li><a href="./pages/inicio-de-sesion.html">Iniciar Sesion</a></li>
       </ul>
     </header>
     <main>
@@ -34,6 +39,10 @@
           Cosecha experiencias únicas mientras cuidas de nuestro viñedos
           orgánicos y disfruta de alojamientos gratuitos.
         </p>
+        <div class="ubicacion">
+          <img class="loc-ico" src="src/icons/location.svg" alt="loc" />
+          <p class="loc-txt">Argentina, Mendoza</p>
+        </div>
       </section>
 
       <section id="caracteristicas">
@@ -81,17 +90,18 @@
           <div class="cont-targ cont-m">
             <div class="targeta">
               <img class="img-targ" src="src/icons/arbol.svg" alt="arbol" />
-              <h3 class="tit-targ">Totalmente gratis</h3>
+              <h3 class="tit-targ">Sembrando Vida</h3>
               <p class="p-targ">
-                Valoramos más el aporte ecológico que brindas al planeta que
-                cualquier cantidad monetaria
+                Cada árbol que plantamos, financiado con el 30% de nuestros
+                ingresos, es una contribución tangible a la salud de nuestro
+                planeta.
               </p>
             </div>
           </div>
         </section>
       </section>
 
-      <section class="fotos">
+      <section id="fotos" class="fotos">
         <h2 class="titulo-section">
           <img
             src="src/separador-der.svg"
@@ -104,7 +114,7 @@
             class="separador sep-der"
           />
         </h2>
-       
+
         <p class="subtitulo-section">
           Sumérgete en una estancia donde cada detalle celebra y respeta la
           riqueza de nuestro entorno natural.
@@ -140,8 +150,178 @@
           </div>
         </div>
       </section>
+
+      <section id="testimonios" class="testimonios">
+        <h2 class="titulo-section">
+          <img
+            src="src/separador-der.svg"
+            alt="separador-der"
+            class="separador sep-izq"
+          />Testimonios
+          <img
+            src="src/separador-der.svg"
+            alt="separador-der"
+            class="separador sep-der"
+          />
+        </h2>
+
+        <div class="centrar-testimonios">
+          <div class="contenedor-testimonios">
+            <article class="contenedor-testimonio">
+              <img
+                class="img-cabania"
+                src="src/fotosPerfil/perfil1-m.jpg"
+                alt="cabaña1"
+              />
+              <div class="text-area-testimonio">
+                <p class="testimonio-txt">
+                  "Fue una experiencia reveladora, donde pude disfrutar de la
+                  naturaleza, aprender sobre la sostenibilidad y contribuir al
+                  cuidado del entorno de manera significativa."
+                </p>
+                <h2 class="testimonio-nombre">- Alejandro Sánchez</h2>
+              </div>
+            </article>
+            <article class="contenedor-testimonio">
+              <img
+                class="img-cabania"
+                src="src/fotosPerfil/perfil2-f.jpg"
+                alt="cabaña1"
+              />
+              <div class="text-area-testimonio">
+                <p class="testimonio-txt">
+                  "No solo redujo mi huella ambiental, sino que también me
+                  mostró lo gratificante que puede ser vivir de manera más
+                  sostenible."
+                </p>
+                <h2 class="testimonio-nombre">- Linnea Soto</h2>
+              </div>
+            </article>
+            <article class="contenedor-testimonio">
+              <img
+                class="img-cabania"
+                src="src/fotosPerfil/perfil1-f.jpg"
+                alt="cabaña1"
+              />
+              <div class="text-area-testimonio">
+                <p class="testimonio-txt">
+                  "Me hizo sentir más conectada con la naturaleza y agradecida
+                  por las comodidades simples de la vida. "
+                </p>
+                <h2 class="testimonio-nombre">- Elara Velasco</h2>
+              </div>
+            </article>
+            <article class="contenedor-testimonio">
+              <img
+                class="img-cabania"
+                src="src/fotosPerfil/perfil2-m.jpg"
+                alt="cabaña1"
+              />
+              <div class="text-area-testimonio">
+                <p class="testimonio-txt">
+                  "Fue una experiencia enriquecedora, donde participé en la
+                  agricultura sostenible y compartí con personas apasionadas por
+                  la ecología."
+                </p>
+                <h2 class="testimonio-nombre">- Javier Vargas</h2>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section id="cosecha-de-uvas" class="cosecha-de-uvas">
+        <h2 class="titulo-section">
+          <img
+            src="src/separador-der.svg"
+            alt="separador-der"
+            class="separador sep-izq"
+          />¡Únete a la Cosecha de Uva Ecológica!
+          <img
+            src="src/separador-der.svg"
+            alt="separador-der"
+            class="separador sep-der"
+          />
+        </h2>
+        <div class="separador-cu">
+          <div class="txt-cu">
+            <p>
+              En nuestro viñedo, la sostenibilidad y la comunidad son
+              fundamentales. Te invitamos a ser parte de nuestra cosecha de uva
+              ecológica y a experimentar la belleza de la vida en un entorno
+              vinícola. Tu trabajo voluntario en la cosecha nos ayuda a mantener
+              nuestra misión de sostenibilidad y a seguir ofreciendo estadías
+              gratuitas a quienes comparten nuestra pasión por el vino y la
+              ecología
+            </p>
+          </div>
+          <div class="img-cu">
+            <img src="src/uvs.jpg" alt="uvas" />
+          </div>
+        </div>
+      </section>
+
+      <section id="solicitar-hosp">
+        <h2 class="titulo-section">
+          <img
+            src="src/separador-der.svg"
+            alt="separador-der"
+            class="separador sep-izq"
+          />¡Reserva tu estancia ahora y descubre el encanto de nuestro viñedo!
+          <img
+            src="src/separador-der.svg"
+            alt="separador-der"
+            class="separador sep-der"
+          />
+        </h2>
+        <div class="separador-cu">
+          <div class="img-cu">
+            <img id="hosp-c" src="src/Cabaña.jpg" alt="uvas" />
+          </div>
+          <div class="txt-cu txt-hosp">
+            <p>
+              ¡Te invitamos a ser parte de una experiencia única en nuestro
+              viñedo gratuito y ecológico! Disfruta de un alojamiento acogedor
+              en cabañas ecológicas, despiértate con vistas panorámicas de los
+              viñedos y participa en actividades como la cosecha de uvas
+            </p>
+            <button>Solicitar Hospedaje</button>
+          </div>
+        </div>
+      </section>
     </main>
-    <footer></footer>
+    <footer>
+      <div id="isologo-foot">
+        <!-- <img id="iso-foot" src="src/isotipo.svg" alt="iso" /> -->
+        <img id="logo-foot" src="src/logotipo.svg" alt="logo" />
+      </div>
+      <div class="ubicacion">
+        <img class="loc-ico" src="src/icons/location.svg" alt="loc" />
+        <p class="loc-txt">Argentina, Mendoza</p>
+      </div>
+      <div class="redes">
+        <div class="red">
+          <img src="src/icons/facebook.svg" alt="facebook" />
+          <p>Facebook</p>
+        </div>
+        <div class="red">
+          <img src="src/icons/instagram.svg" alt="instragram" />
+          <p>Instagram</p>
+        </div>
+        <div class="red">
+          <img src="src/icons/twitter.svg" alt="twitter" />
+          <p>Twitter</p>
+        </div>
+        <div class="red">
+          <img src="src/icons/pinterest.svg" alt="twitter" />
+          <p>Pinterest</p>
+        </div>
+        <div class="red">
+          <img src="src/icons/tiktok.svg" alt="twitter" />
+          <p>TikTok</p>
+        </div>
+      </div>
+    </footer>
     <script src="./js/ocultar-navbar.js"></script>
   </body>
 </html>

@@ -1,0 +1,99 @@
+:root {
+    --violeta: #754967;
+    --verde: #429142;
+    --navbar-h: 80px;
+    --color-fondo: #f7f3e7;
+  }
+  
+  main {
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    background-image: url(../src/viñedo.webp);
+    width: 100vw;
+    min-height: 100vh;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body {
+    background: #59abe3;
+    margin: 0;
+  }
+  .form {
+    width: 420px;
+    background: var(--violeta);
+    border-radius: 8px;
+    box-shadow: 0 0 40px -10px #000;
+    margin: calc(50vh - 220px) auto;
+    padding: 30px 40px;
+    max-width: calc(100vw - 40px);
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+    position: relative;
+    font-weight: 900; 
+  }
+  h2 {
+    margin: 10px 0;
+    padding-bottom: 10px;
+    font-size: 25px;
+    width: 180px;
+    color: var(--verde);
+    border-bottom: 3px solid var(--verde);
+  }
+  input {
+    width: 100%;
+    padding: 10px;
+    font-size: 24px;
+    box-sizing: border-box;
+    background: none;
+    outline: none;
+    resize: none;
+    border: 0;
+    font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+    transition: all 0.3s;
+    border-bottom: 2px solid var(--verde);
+  }
+  input:focus {
+    border-bottom: 2px solid var(--verde);
+  }
+  p:before {
+    content: attr(type);
+    display: block;
+    margin: 28px 0 0;
+    font-size: 28px;
+    color: var(--verde);
+  }
+  button {
+    float: right;
+    padding: 8px 12px;
+    margin: 9px 0;
+    font-family: "Montserrat", sans-serif;
+    border: 2px solid var(--verde);
+    background: 0;
+    color: var(--verde);
+    cursor: pointer;
+    transition: all 0.3s;
+    font-size: 28px;
+  }
+  button:hover {
+    background: var(--verde);
+    color: #fff;
+  }
+  
+  span {
+    margin: 0 5px 0 15px;
+  }
+  
+  .btns {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-weight: 900;
+  }
+  
+  #registrarme {
+    color: var(--verde);
+    display: inline-block;
+    margin: 6px auto;
+  }
+  
