@@ -1,29 +1,56 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="../styles/reset.css">
-    <link rel="stylesheet" href="../styles/registro.css">
+    <link rel="stylesheet" href="../styles/gralStyles.css" />
+    <link rel="stylesheet" href="../styles/header.css" />
+    <link rel="stylesheet" href="../styles/registro.css" />
+    <link rel="icon" href="../favicon.ico" type="image/x-icon" />
     <title>NaturaLife</title>
   </head>
   <body>
+    <header id="navbar">
+      <article id="isologotipo">
+        <img id="iso" src="../src/isotipo.png" alt="isotipo-naturalife" />
+        <img id="logo" src="../src/logotipo.png" alt="logotipo-naturalife" />
+      </article>
+      <ul id="menu">
+        <li><a href="../index.html">Inicio</a></li>
+        <li><a href="../index.html">Nosotros</a></li>
+        <li><a href="../index.html">Fotos</a></li>
+        <li><a href="../index.html">Testimonios</a></li>
+        <li><a href="../index.html">Viñedo</a></li>
+        <li><a href="../pages/inicio-de-sesion.html">Iniciar Sesion</a></li>
+      </ul>
+    </header>
     <main>
-        <form class="form">
-            <h2>Registro</h2>
-            <p type="Nombre de usuario:"><input placeholder="Ingrese nombre de usuario"></input></p>
-            <p type="Contraseña:"><input placeholder="Ingrese contraseña"></input></p>
-            <p type="Repetir contraseña:"><input placeholder="Repita contraseña"></input></p>
+      <form>
+        <div id="campos-form">
 
-  
-            <div class="btns">
-                <button id="ingresar">Registrarme</button>
-                <button id="volver">volver</button>
-            </div>
-        
-            <!-- <a id="registrarme" href="../pages/registro.html">Registrarme</a> -->
-          </form>
+
+          <label for="nombre">Usuario</label>
+          <input type="text" name="nombre" id="nombre" />
+          <label for="nombre">Contraseña</label>
+          <input type="text" name="nombre" id="nombre" />
+          <label for="nombre">Nombre</label>
+          <input type="text" name="nombre" id="nombre" />
+
+          <label for="apellido">Apellido</label>
+          <input type="text" name="apellido" id="apellido" />
+
+          <label for="e-mail">E-mail</label>
+          <input type="email" name="e-mail" id="e-mail" />
+
+          <label for="tel">Teléfono</label>
+          <input type="tel" name="tel" id="tel" />
+
+          <input type="submit" value="Registrarme" class="btn" />
+        </div>
+
+        <div class="bgimg"></div>
+      </form>
     </main>
   </body>
 </html>
