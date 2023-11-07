@@ -1,0 +1,23 @@
+.texto-reglas{
+    font-size: 30px;
+    color: var(--verde);
+    padding: 20px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.texto-reglas p{
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: var(--verde);
+    font-size: 30px;
+    color: white;
+    border: none;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 8px auto;
+    box-shadow: none;
+  }

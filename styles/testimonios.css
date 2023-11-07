@@ -2,9 +2,9 @@
   --h-contenedor-testimonios: 250px;
 }
 
-.testimonios {
+/* .testimonios {
   min-height: 100vh;
-}
+} */
 
 .contenedor-testimonio {
   display: flex;
