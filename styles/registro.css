@@ -54,11 +54,12 @@ form {
   left: 10%;
   border-radius: 10%;
   padding: 1em 2em;
-  background-color: #331f2ce7;
+  background-color: var(--verde);
   flex-direction: column;
-  color: var(--verde);
+  color: white;
   font-weight: 600;
   font-size: 18px;
+  border: 2px solid var(--violeta);
 }
 
 label {
@@ -69,7 +70,7 @@ label {
 }
 
 input {
-  border: 2px solid var(--verde);
+  border: 2px solid var(--violeta);
   color: var(--violeta);
   font-size: 1em;
   border-radius: 0.5em;
@@ -87,7 +88,8 @@ input[type="submit"] {
   margin-right: auto;
   border: none;
   font-size: 1em;
-
+  background-color: var(--violeta);
+  color: white;
 }
 
 .cont-img {

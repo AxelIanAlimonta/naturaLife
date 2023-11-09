@@ -1,0 +1,24 @@
+.contInfoCuSimple{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imCuSimple{
+    width: 150px;
+    transform: scaleX(-1);
+}
+
+.infoCuSimple{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    font-size: 30px;
+    /* border-radius: 10% 50% 10% 50% / 50% 50% 50% 50%; */
+    border-radius: 30px;
+    background-color: var(--verde);
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
