@@ -100,3 +100,7 @@ h1 {
 }
 
 
+
+.opcSeleccionadaMenu{
+border-bottom: 2px solid var(--violeta);
+}
