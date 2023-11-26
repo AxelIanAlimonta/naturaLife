@@ -30,12 +30,15 @@
 
 #menu{
     display: flex;
-    justify-content: center;
+    justify-content: right;
     align-items: center;
+    flex-grow: 1;
+    flex-wrap: wrap;
+    gap: 25px;
 }
 
 #menu li{
-    padding: 1em;
+    /* padding: 1em; */
 }
 
 #menu a{
@@ -46,4 +49,9 @@
     text-decoration: none;
 }
 
+@media screen and (max-width:1120px){
+    #logo{
+        display: none;
+    }
+}
 
