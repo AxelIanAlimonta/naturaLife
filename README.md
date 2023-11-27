@@ -2,7 +2,7 @@
 
 Este proyecto, desarrollado en el marco de la materia "Introducción al Diseño Gráfico en la Web" de la Tecnicatura en Desarrollo Web de la Universidad Nacional de la Matanza, representa un ejercicio enfocado en la creación estética de una Landing Page. La Landing Page tiene como objetivo principal promover un servicio ficticio de hospedaje gratuito con un enfoque ecológico.
 
-**Puedes ver el despliegue de la aplicación en [https://axelianalimonta.github.io/naturaLife/](https://axelianalimonta.github.io/naturaLife/)**
+**Puedes ver el despliegue de la aplicación en [https://axelianalimonta.github.io/naturaLife/](https://axelianalimonta.github.io/naturaLife/){:target="_blank"}**
 
 ## Características Principales:
 
